@@ -17,6 +17,7 @@ dependencies:
 - network  # required when using bytestring
 - megaparsec  # may be useful for parsing the input
 - parser-combinators  # contains a helpful count function
+- attoparsec # alternative to megaparsec and parser-combinators
 - text  # use Text rather than String
 - stm  # may help with a concurrent database
 - containers  # may help with the database structure and debugging
